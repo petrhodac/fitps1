@@ -84,7 +84,7 @@ pekne
 sleep "$TIME"
 clear
 
-#
+#sed
 pis "nahrada prvni jednicky za x"
 pis "sed 's|1|x|' soubor"
 sed 's|1|x|' soubor
