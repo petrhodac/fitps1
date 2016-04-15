@@ -8,11 +8,11 @@ pekne()
 	pis "Stejne pekne!"
 }	
 
-pis(){
+pis()
+{
 	BARVA='\033[1;32m'
 	KONEC='\033[0m'
 	echo -e  "${BARVA}${1}${KONEC}"
-
 }
 clear
 
@@ -22,6 +22,7 @@ echo -e "
  sed 's|RE|text|g' prikaz
  sed -i 's|RE|text|g' prikaz #rovnou v souboru
 "
+
 sleep "$TIME"
 
 cd /tmp
