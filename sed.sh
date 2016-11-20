@@ -18,7 +18,7 @@ clear
 
 echo -e " 
  Ted se mrknem jak na sed 
- sed 'kde {d,s,p,q}prikaz' kde
+ sed 'vzor {d,s,p,q}prikaz' kde
  sed 's|RE|text|g' prikaz
  sed -i 's|RE|text|g' prikaz #rovnou v souboru
 "
