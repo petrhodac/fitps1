@@ -2,5 +2,6 @@
 
 Opakovani a veci kolem #FITPS1
 zatim mame 
-* sed ukazky
 
+* sed ukazky
+* akw ukazky

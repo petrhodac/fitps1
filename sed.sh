@@ -1,7 +1,7 @@
 #!/bin/bash
 #sed easy from @PetrHodac
 #TIME je prodleva mezi slide 
-TIME=3
+TIME=4
 #pokus o interaktivni vyuku ; cat sed.sh ; chmod u+x sed.sh ; ./sed.sh
 pekne()
 {
