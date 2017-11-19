@@ -14,6 +14,7 @@ pis()
 	KONEC='\033[0m'
 	echo -e  "${BARVA}${1}${KONEC}"
 }
+
 clear
 
 echo -e " 
@@ -44,6 +45,7 @@ cat<<END>soubor
 12
 13
 END
+
 pis "hotovo takhle vypada soubor:"
 cat soubor
 sleep "$TIME"
@@ -94,4 +96,5 @@ pis "sed 's|1|x|g' soubor"
 sed 's|1|x|g' soubor
 sleep "$((TIME+2))"
 #end
+
 pis "zatim konec"
